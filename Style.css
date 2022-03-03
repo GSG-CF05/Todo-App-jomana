@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 237);
+  }
+  .intro-photo {
+    width: 80%;
+    display: block;
+    padding: 3% 0;
+    margin: 0 auto;
+  }
+  h1 {
+    font-family: "Lucida Sans Regular", sans-serif;
+    color: rgb(180, 116, 116);
+    font-weight: bolder;
+    display: block;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5% 0;
+  }
+  form {
+    padding: 2% 3%;
+    display: block;
+  }
+  .todo-input {
+    width: 83%;
+    padding: 2% 0;
+    margin: 0 auto;
+    border: 1px solid rgb(180, 116, 116);
+    border-radius: 3%;
+  }
+  .todo-button {
+    padding: 2% 0;
+    border: 1px solid rgb(180, 116, 116);
+    border-radius: 3%;
+  }
+  
+  @media (min-width: 1200px) {
+    .intro-photo {
+      height: 720px;
+      padding: 0;
+      float: left;
+    }
+    body {
+      display: flex;
+    }
+    main {
+      width: 43%;
+    }
+  }
+  
+  
