@@ -58,7 +58,8 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(233, 194, 194);
-    margin: 1%;
+    margin: 2%;
+    margin-right: 10%;
 }
 
 input[type="checkbox" i]{
